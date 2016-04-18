@@ -1,0 +1,10 @@
+{application, eratosthenes, [
+    {description, "Process to check prime numbers"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
