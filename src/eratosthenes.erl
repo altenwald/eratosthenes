@@ -32,13 +32,9 @@ is_prime(N) ->
 
 %% gen_server callbacks
 
-init([1]) ->
-    {ok, [1]};
-init([2]) ->
-    {ok, [1,2]};
-init([N]) when is_integer(N) ->
-    init(1, N),
-    {ok, sieve(2, N)}.
+init([N]) when is_integer(N) andalso N >= 1 ->
+    init(1, N+1),
+    {ok, sieve(2, N+1)}.
 
 handle_call({prime, N}, _From, Primes) ->
     {reply, lists:member(N, Primes), Primes};
