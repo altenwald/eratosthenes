@@ -2,6 +2,7 @@ eratosthenes
 ============
 
 [![Build Status](https://img.shields.io/travis/altenwald/eratosthenes/master.svg)](https://travis-ci.org/altenwald/eratosthenes)
+[![Codecov](https://img.shields.io/codecov/c/github/altenwald/eratosthenes.svg)](https://codecov.io/gh/altenwald/eratosthenes)
 [![License: LGPL 2.1](https://img.shields.io/github/license/altenwald/eratosthenes.svg)](https://raw.githubusercontent.com/altenwald/eratosthenes/COPYING)
 
 The sieve of Eratosthenes is an ancient method to obtain all the prime numbers under `N`. The method to calculate is:

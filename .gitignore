@@ -2,3 +2,4 @@
 ebin
 .eunit
 _build/
+cobertura.xml
